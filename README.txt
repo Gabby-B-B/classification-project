@@ -9,7 +9,7 @@ My objectives for the Telco Project are:
 4. Present a high-level notebook walkthrough targeted to an audience of my data science peers.
 
 
-My goals when working through the Telco Project:
+My goals when working through the Telco Project are:
 1.Find drivers for customer churn with Darden Telco.
 
 2. Construct a machine learning classification model that accurately predicts customer churn.
