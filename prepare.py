@@ -169,7 +169,7 @@ train, validate = train_test_split(train_validate, test_size=.3,
                                         )
 
 
-# In[95]:
+# In[102]:
 
 
 #combining my split, train, test data and my clean data into one dataframe
@@ -180,6 +180,17 @@ def prep_telco_data():
                                        test_size=.3, 
                                        random_state=123, 
                                        stratify=train_validate.is_churn)
-    train, validate, test = impute_mode()
     return train, validate, test
+
+
+# In[101]:
+
+
+
+
+
+# In[ ]:
+
+
+
 
