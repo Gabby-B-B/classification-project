@@ -145,7 +145,7 @@ def clean_telco(cached=True):
 # In[82]:
 
 
-df=clean_telco()
+
 
 
 # In[87]:
@@ -181,16 +181,4 @@ def prep_telco_data():
                                        random_state=123, 
                                        stratify=train_validate.is_churn)
     return train, validate, test
-
-
-# In[101]:
-
-
-
-
-
-# In[ ]:
-
-
-
 
