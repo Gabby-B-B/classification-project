@@ -1,7 +1,7 @@
-<h1> Predicting Churn at Darden Telco </h1>
+<p><h1> Predicting Churn at Darden Telco </h1>
 <h2>About the project</h2>
 <h3>Goals </h3>
-<p>My goal for this project is to create a model predicting churn using the data obtained from the Telco database. I would like to identify what conditions and attributes are the biggest drivers of churn. In this project I will deliver acquire.py, prepare.py, telco.csv and model.ipynb which will hold my report</p>
+<p>My goal for this project is to create a model predicting churn using the data obtained from the Telco database. I would like to identify what conditions and attributes are the biggest drivers of churn. In this project I will deliver acquire.py, prepare.py, telco.csv and final_presentation.ipynb which will hold my report</p>
 <h2> Data Dictionary </h2>
 <ul> 
 <li> Churn: the measure of the numnber of individuals moving out of a collection group over a specific period. </li>
@@ -15,7 +15,7 @@
 
 <li>f1-score: The balanced harmonic mean of Recall and Precision, giving both metrics equal weight. The higher the F-Measure is, the better.</li>
 
-<li>Support: The number of occurrences of each class in where y is true.</li>
+<li>Support: The number of occurrences of each class in where y is true.</li><br><br>
 <h2>Hypothesis Testing </h2>
 <ul>
 <li>First Hypothesis
@@ -24,8 +24,8 @@
 alpha ( 𝛼 ): 1 - confidence level (95% confidence level ->  𝛼=.05 )</li>
 <br><br>
  <li>Second Hypothesis<br>
-$H_0$: People who churn are paying more per month than those who arent. <br>
-$H_a$: People who churn are paying the equal to or less than those who dont churn. </li> <br>
+𝐻0 : People who churn are paying more per month than those who arent. <br>
+𝐻𝑎 : People who churn are paying the equal to or less than those who dont churn. </li> <br>
  <h2> Data Science Pipeline Used </h>
 
 acquire.py
@@ -64,4 +64,4 @@ conclusion
 
 <p>Customers without dependents, on month to month contracts and who have additional features are more likely to churn. Through analyzing the data, we have found that the customers who churn are paying more. This can be explained by the additional features that many customers have. Next steps would be to find out which specific features cost the most and cause the highest churn. My recommendation to retain customers would be to investigate  offering bundle deals and having customers sign contracts to reduce the churn with the company. </p>
 <h2> How to reproduce the results </h2>
-You may download acquire.py and prepare.py. You will need your own env.py file with your SQL credentials in order to access the SQL server.
+<p>You may download acquire.py and prepare.py. You will need your own env.py file with your SQL credentials in order to access the SQL server.</p>
