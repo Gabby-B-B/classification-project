@@ -129,11 +129,8 @@ def clean_telco(cached=True):
     df['has_phones']= df['phone_service' or 'multiple_lines']== 'Yes'
     df['has_security_features']= df['online_security' or 'online_backup'] =='Yes'
     df['years_tenure'] = df.tenure / 12
-
-    
     # create dummy columns for churn
     telco_dummies = pd.get_dummies(df.churn, drop_first=True)
-    
     # add dummy columns to df
     df = pd.concat([df, telco_dummies], axis=1)
     # rename dummy columns
@@ -142,31 +139,15 @@ def clean_telco(cached=True):
     return df
 
 
-# In[82]:
-
-
-
-
-
-# In[87]:
-
-
-# Counting nulls in my clean data
-df.isnull().sum()
-
-
-# In[88]:
-
-
-#making my split, train, test data using is_churn
-train_validate, test = train_test_split(df, test_size=.2, 
-                                        random_state=123,
-                                        stratify=df.is_churn
-                                       )
+# #making my split, train, test data using is_churn
+'''train_validate, test = train_test_split(clean_telco, test_size=.2, 
+                                         random_state=123,
+                                         stratify=clean_telco.is_churn
+                                           )
 train, validate = train_test_split(train_validate, test_size=.3, 
-                                 random_state=123,
-                                 stratify=train_validate.is_churn
-                                        )
+                                  random_state=123,
+                                  stratify=train_validate.Yes
+                                         ) '''
 
 
 # In[102]:
