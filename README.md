@@ -19,26 +19,29 @@
 <h2>Hypothesis Testing </h2>
 <ul>
 <li>First Hypothesis
-𝐻0 : Tenure has no effect on churn rate.
-𝐻𝑎 : Tenure effects the churn rate.
-alpha ( 𝛼 ): 1 - confidence level (95% confidence level ->  𝛼=.05 )</li>
+𝐻0 : Tenure has no effect on churn rate.<br>
+𝐻𝑎 : Tenure effects the churn rate.<br>
+alpha ( 𝛼 ): 1 - confidence level (95% confidence level ->  𝛼=.05 )<br></li>
 <br><br>
  <li>Second Hypothesis<br>
 𝐻0 : People who churn are paying more per month than those who arent. <br>
-𝐻𝑎 : People who churn are paying the equal to or less than those who dont churn. </li> <br>
- <h2> Data Science Pipeline Used </h>
+𝐻𝑎 : People who churn are paying the equal to or less than those who dont churn. </li> <br><br><br>
 
+
+<h2> Data Science Pipeline Used </h2>
+<p>
 acquire.py
-
-<ul>acquire data from csv gathered from sql.</li>
+<ul>
+<li>acquire data from csv gathered from sql.</li>
 
 prepare.py
 <ul>
 <li>address missing data</li>
 <li>address outliers</li>
 <li>split into train, validate, test</li>
-<li>explore</li>
+<br><br>
 
+<li>explore</li>
 <li>plot correlation matrix of all variables </li>
 <li>test each hypothesis</li>
 
