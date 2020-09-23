@@ -46,14 +46,13 @@ alpha ( 𝛼 ): 1 - confidence level (95% confidence level ->  𝛼=.05 )<br></l
 <li>test each hypothesis</li>
 
 
-<h4>model<h4>
+<h4>model</h4>
 
 <li>try different algorithms: decision tree, logistic regression, random forest, knn </li>
 <li><which features are most influential?</li>
 <li>evaluate on train</li>
 <li>select top 3 +/- models to evaluate on validate</li>
 <li>select top model</li>
-<li>create a model.py that pulls all the parts together.</li>
 <li>run model on test to verify.</li>
 
 <h4>conclusion</h4>
