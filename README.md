@@ -32,36 +32,37 @@ alpha ( 𝛼 ): 1 - confidence level (95% confidence level ->  𝛼=.05 )<br></l
 <p>
 <h4>acquire.py</h4>
 <ul>
-<li>acquire data from csv gathered from sql.</li>
+<li>acquire data from csv gathered from sql.</li></ul>
 
 <h4>prepare.py</h4>
 <ul>
 <li>address missing data</li>
 <li>address outliers</li>
-<li>split into train, validate, test</li>
+<li>split into train, validate, test</li></ul>
 <br><br>
 
-<li>explore</li>
+<h4>explore</h4>
+<ul>
 <li>plot correlation matrix of all variables </li>
 <li>test each hypothesis</li>
-
+</ul><br><br>
 
 <h4>model</h4>
-
-<li>try different algorithms: decision tree, logistic regression, random forest, knn </li>
+<ul>
+<li>try different algorithms: decision tree, logistic regression, random forest,knn </li>
 <li>which features are most influential?</li>
 <li>evaluate on train</li>
 <li>select top 3 +/- models to evaluate on validate</li>
 <li>select top model</li>
 <li>run model on test to verify.</li>
-
+</ul>
 <h4>conclusion</h4>
-
+<ul>
 <li>summarize findings</li>
 <li>make recommendations</li>
 <li>next steps</li>
 <li>how to run with new data.</li>
-
+</ul>
 <h2>Conclusion </h2>
 
 <p>Customers without dependents, on month to month contracts and who have additional features are more likely to churn. Through analyzing the data, we have found that the customers who churn are paying more. This can be explained by the additional features that many customers have. Next steps would be to find out which specific features cost the most and cause the highest churn. My recommendation to retain customers would be to investigate  offering bundle deals and having customers sign contracts to reduce the churn with the company. </p>
