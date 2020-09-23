@@ -33,20 +33,16 @@ alpha ( 𝛼 ): 1 - confidence level (95% confidence level ->  𝛼=.05 )<br></l
 <h4>acquire.py</h4>
 <ul>
 <li>acquire data from csv gathered from sql.</li></ul>
-
 <h4>prepare.py</h4>
 <ul>
 <li>address missing data</li>
 <li>address outliers</li>
 <li>split into train, validate, test</li></ul>
-<br><br>
-
 <h4>explore</h4>
 <ul>
 <li>plot correlation matrix of all variables </li>
 <li>test each hypothesis</li>
-</ul><br><br>
-
+</ul>
 <h4>model</h4>
 <ul>
 <li>try different algorithms: decision tree, logistic regression, random forest,knn </li>
