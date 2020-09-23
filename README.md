@@ -49,7 +49,7 @@ alpha ( 𝛼 ): 1 - confidence level (95% confidence level ->  𝛼=.05 )<br></l
 <h4>model</h4>
 
 <li>try different algorithms: decision tree, logistic regression, random forest, knn </li>
-<li><which features are most influential?</li>
+<li>which features are most influential?</li>
 <li>evaluate on train</li>
 <li>select top 3 +/- models to evaluate on validate</li>
 <li>select top model</li>
