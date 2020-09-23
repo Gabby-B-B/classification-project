@@ -14,7 +14,6 @@
 <li>Recall: If this score is high, you didn’t miss a lot of positives. But as it gets lower, you are not predicting the positives that are actually there. tp / (tp + fn) </li>
 
 <li>f1-score: The balanced harmonic mean of Recall and Precision, giving both metrics equal weight. The higher the F-Measure is, the better.</li>
-
 <li>Support: The number of occurrences of each class in where y is true.</li><br><br>
 <h2>Hypothesis Testing </h2>
 <ul>
